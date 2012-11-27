@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E725F5D16652CAF00942382 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E725F5C16652CAF00942382 /* UIKit.framework */; };
+		2E725F5F16652CAF00942382 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E725F5E16652CAF00942382 /* Foundation.framework */; };
+		2E725F6116652CAF00942382 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E725F6016652CAF00942382 /* CoreGraphics.framework */; };
+		2E725F6716652CAF00942382 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E725F6516652CAF00942382 /* InfoPlist.strings */; };
+		2E725F6916652CB000942382 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E725F6816652CB000942382 /* main.m */; };
+		2E725F6D16652CB000942382 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E725F6C16652CB000942382 /* AppDelegate.m */; };
+		2E725F6F16652CB000942382 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E725F6E16652CB000942382 /* Default.png */; };
+		2E725F7116652CB000942382 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E725F7016652CB000942382 /* Default@2x.png */; };
+		2E725F7316652CB000942382 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E725F7216652CB000942382 /* Default-568h@2x.png */; };
+		2E725F7616652CB000942382 /* HomescreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E725F7516652CB000942382 /* HomescreenViewController.m */; };
+		2E725F7916652CB000942382 /* HomescreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E725F7716652CB000942382 /* HomescreenViewController.xib */; };
+		2E725F8316652F3E00942382 /* ServiceCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E725F8116652F3E00942382 /* ServiceCategoryViewController.m */; };
+		2E725F8416652F3E00942382 /* ServiceCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E725F8216652F3E00942382 /* ServiceCategoryViewController.xib */; };
+		2E725F89166531E300942382 /* WarningCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E725F87166531E300942382 /* WarningCategoryViewController.m */; };
+		2E725F8A166531E300942382 /* WarningCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E725F88166531E300942382 /* WarningCategoryViewController.xib */; };
+		2E725F8E1665324000942382 /* ManualCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E725F8C1665323F00942382 /* ManualCategoryViewController.m */; };
+		2E725F8F1665324000942382 /* ManualCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E725F8D1665323F00942382 /* ManualCategoryViewController.xib */; };
+		2E725F931665329200942382 /* TipCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E725F911665329200942382 /* TipCategoryViewController.m */; };
+		2E725F941665329200942382 /* TipCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E725F921665329200942382 /* TipCategoryViewController.xib */; };
+		2E725F98166532C600942382 /* SettingCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E725F96166532C600942382 /* SettingCategoryViewController.m */; };
+		2E725F99166532C600942382 /* SettingCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E725F97166532C600942382 /* SettingCategoryViewController.xib */; };
+		2E725FA31665347E00942382 /* StepByStepGuide.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E725FA21665347E00942382 /* StepByStepGuide.m */; };
+		2E725FA6166534E000942382 /* Step.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E725FA5166534E000942382 /* Step.m */; };
+		2E725FAC1665360F00942382 /* StepDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E725FAA1665360F00942382 /* StepDetailViewController.xib */; };
+		2E725FAE1665398E00942382 /* StepDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E725FAD1665398E00942382 /* StepDetailViewController.m */; };
+		2E725FB1166539DB00942382 /* StepByStepGuideStockService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E725FB0166539DB00942382 /* StepByStepGuideStockService.m */; };
+		2E725FB816654D3800942382 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E725FB616654D3800942382 /* HelpViewController.m */; };
+		2E725FB916654D3800942382 /* HelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E725FB716654D3800942382 /* HelpViewController.xib */; };
+		2E725FBC16654EC600942382 /* reservereifen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E725FBB16654EC600942382 /* reservereifen.jpg */; };
+		2E725FBE16654F4100942382 /* reifenwechsel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E725FBD16654F4100942382 /* reifenwechsel.jpg */; };
+		2E725FC6166551FA00942382 /* WarningLightCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E725FC2166551FA00942382 /* WarningLightCollectionViewCell.m */; };
+		2E725FC7166551FA00942382 /* WarningLightContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E725FC4166551FA00942382 /* WarningLightContainerViewController.m */; };
+		2E725FC8166551FA00942382 /* WarningLightContainerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E725FC5166551FA00942382 /* WarningLightContainerViewController.xib */; };
+		2E725FCB1665520D00942382 /* WarningLightStockService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E725FCA1665520D00942382 /* WarningLightStockService.m */; };
+		2E725FD1166552DD00942382 /* WarningLight.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E725FD0166552DD00942382 /* WarningLight.m */; };
+		2E725FD81665530B00942382 /* WarningLightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E725FD61665530B00942382 /* WarningLightViewController.m */; };
+		2E725FD91665530B00942382 /* WarningLightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E725FD71665530B00942382 /* WarningLightViewController.xib */; };
+		2E725FDB1665550A00942382 /* bremsanlage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E725FDA1665550A00942382 /* bremsanlage.png */; };
+		2E725FDD1665551500942382 /* feststellbremsenleuchte.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E725FDC1665551500942382 /* feststellbremsenleuchte.png */; };
+		2E725FDF1665551D00942382 /* parkbremse.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E725FDE1665551D00942382 /* parkbremse.png */; };
+		2E725FE11665553100942382 /* warnleuchte.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E725FE01665553100942382 /* warnleuchte.png */; };
+		2E725FE516655E6100942382 /* ProfilController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E725FE316655E6100942382 /* ProfilController.m */; };
+		2E725FE616655E6100942382 /* ProfilController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E725FE416655E6100942382 /* ProfilController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E725F5816652CAF00942382 /* SplitViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E725F5C16652CAF00942382 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2E725F5E16652CAF00942382 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2E725F6016652CAF00942382 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2E725F6416652CAF00942382 /* SplitViewTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SplitViewTest-Info.plist"; sourceTree = "<group>"; };
+		2E725F6616652CAF00942382 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2E725F6816652CB000942382 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E725F6A16652CB000942382 /* SplitViewTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SplitViewTest-Prefix.pch"; sourceTree = "<group>"; };
+		2E725F6B16652CB000942382 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E725F6C16652CB000942382 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E725F6E16652CB000942382 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2E725F7016652CB000942382 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2E725F7216652CB000942382 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2E725F7416652CB000942382 /* HomescreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomescreenViewController.h; sourceTree = "<group>"; };
+		2E725F7516652CB000942382 /* HomescreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomescreenViewController.m; sourceTree = "<group>"; };
+		2E725F7816652CB000942382 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HomescreenViewController.xib; sourceTree = "<group>"; };
+		2E725F8016652F3E00942382 /* ServiceCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceCategoryViewController.h; sourceTree = "<group>"; };
+		2E725F8116652F3E00942382 /* ServiceCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceCategoryViewController.m; sourceTree = "<group>"; };
+		2E725F8216652F3E00942382 /* ServiceCategoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ServiceCategoryViewController.xib; sourceTree = "<group>"; };
+		2E725F86166531E300942382 /* WarningCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarningCategoryViewController.h; sourceTree = "<group>"; };
+		2E725F87166531E300942382 /* WarningCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarningCategoryViewController.m; sourceTree = "<group>"; };
+		2E725F88166531E300942382 /* WarningCategoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WarningCategoryViewController.xib; sourceTree = "<group>"; };
+		2E725F8B1665323F00942382 /* ManualCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManualCategoryViewController.h; sourceTree = "<group>"; };
+		2E725F8C1665323F00942382 /* ManualCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManualCategoryViewController.m; sourceTree = "<group>"; };
+		2E725F8D1665323F00942382 /* ManualCategoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ManualCategoryViewController.xib; sourceTree = "<group>"; };
+		2E725F901665329200942382 /* TipCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipCategoryViewController.h; sourceTree = "<group>"; };
+		2E725F911665329200942382 /* TipCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipCategoryViewController.m; sourceTree = "<group>"; };
+		2E725F921665329200942382 /* TipCategoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TipCategoryViewController.xib; sourceTree = "<group>"; };
+		2E725F95166532C600942382 /* SettingCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingCategoryViewController.h; sourceTree = "<group>"; };
+		2E725F96166532C600942382 /* SettingCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingCategoryViewController.m; sourceTree = "<group>"; };
+		2E725F97166532C600942382 /* SettingCategoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingCategoryViewController.xib; sourceTree = "<group>"; };
+		2E725FA11665347E00942382 /* StepByStepGuide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepByStepGuide.h; sourceTree = "<group>"; };
+		2E725FA21665347E00942382 /* StepByStepGuide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepByStepGuide.m; sourceTree = "<group>"; };
+		2E725FA4166534E000942382 /* Step.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Step.h; sourceTree = "<group>"; };
+		2E725FA5166534E000942382 /* Step.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Step.m; sourceTree = "<group>"; };
+		2E725FA81665360F00942382 /* StepDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepDetailViewController.h; sourceTree = "<group>"; };
+		2E725FAA1665360F00942382 /* StepDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StepDetailViewController.xib; sourceTree = "<group>"; };
+		2E725FAD1665398E00942382 /* StepDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepDetailViewController.m; sourceTree = "<group>"; };
+		2E725FAF166539DB00942382 /* StepByStepGuideStockService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepByStepGuideStockService.h; sourceTree = "<group>"; };
+		2E725FB0166539DB00942382 /* StepByStepGuideStockService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepByStepGuideStockService.m; sourceTree = "<group>"; };
+		2E725FB516654D3800942382 /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		2E725FB616654D3800942382 /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		2E725FB716654D3800942382 /* HelpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelpViewController.xib; sourceTree = "<group>"; };
+		2E725FBB16654EC600942382 /* reservereifen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = reservereifen.jpg; sourceTree = "<group>"; };
+		2E725FBD16654F4100942382 /* reifenwechsel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = reifenwechsel.jpg; sourceTree = "<group>"; };
+		2E725FC1166551FA00942382 /* WarningLightCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarningLightCollectionViewCell.h; sourceTree = "<group>"; };
+		2E725FC2166551FA00942382 /* WarningLightCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarningLightCollectionViewCell.m; sourceTree = "<group>"; };
+		2E725FC3166551FA00942382 /* WarningLightContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarningLightContainerViewController.h; sourceTree = "<group>"; };
+		2E725FC4166551FA00942382 /* WarningLightContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarningLightContainerViewController.m; sourceTree = "<group>"; };
+		2E725FC5166551FA00942382 /* WarningLightContainerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WarningLightContainerViewController.xib; sourceTree = "<group>"; };
+		2E725FC91665520D00942382 /* WarningLightStockService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarningLightStockService.h; sourceTree = "<group>"; };
+		2E725FCA1665520D00942382 /* WarningLightStockService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarningLightStockService.m; sourceTree = "<group>"; };
+		2E725FCF166552DD00942382 /* WarningLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarningLight.h; sourceTree = "<group>"; };
+		2E725FD0166552DD00942382 /* WarningLight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarningLight.m; sourceTree = "<group>"; };
+		2E725FD51665530B00942382 /* WarningLightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarningLightViewController.h; sourceTree = "<group>"; };
+		2E725FD61665530B00942382 /* WarningLightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarningLightViewController.m; sourceTree = "<group>"; };
+		2E725FD71665530B00942382 /* WarningLightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WarningLightViewController.xib; sourceTree = "<group>"; };
+		2E725FDA1665550A00942382 /* bremsanlage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bremsanlage.png; sourceTree = "<group>"; };
+		2E725FDC1665551500942382 /* feststellbremsenleuchte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = feststellbremsenleuchte.png; sourceTree = "<group>"; };
+		2E725FDE1665551D00942382 /* parkbremse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = parkbremse.png; sourceTree = "<group>"; };
+		2E725FE01665553100942382 /* warnleuchte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warnleuchte.png; sourceTree = "<group>"; };
+		2E725FE216655E6100942382 /* ProfilController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfilController.h; sourceTree = "<group>"; };
+		2E725FE316655E6100942382 /* ProfilController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfilController.m; sourceTree = "<group>"; };
+		2E725FE416655E6100942382 /* ProfilController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfilController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E725F5516652CAF00942382 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E725F5D16652CAF00942382 /* UIKit.framework in Frameworks */,
+				2E725F5F16652CAF00942382 /* Foundation.framework in Frameworks */,
+				2E725F6116652CAF00942382 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E725F4D16652CAF00942382 = {
+			isa = PBXGroup;
+			children = (
+				2E725F6216652CAF00942382 /* SplitViewTest */,
+				2E725F5B16652CAF00942382 /* Frameworks */,
+				2E725F5916652CAF00942382 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E725F5916652CAF00942382 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E725F5816652CAF00942382 /* SplitViewTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E725F5B16652CAF00942382 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E725F5C16652CAF00942382 /* UIKit.framework */,
+				2E725F5E16652CAF00942382 /* Foundation.framework */,
+				2E725F6016652CAF00942382 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E725F6216652CAF00942382 /* SplitViewTest */ = {
+			isa = PBXGroup;
+			children = (
+				2E725FBA16654EB800942382 /* Ressources */,
+				2E725FA01665340300942382 /* Services */,
+				2E725F9F166533F900942382 /* Model */,
+				2E725F7F16652F1700942382 /* Controller */,
+				2E725F6B16652CB000942382 /* AppDelegate.h */,
+				2E725F6C16652CB000942382 /* AppDelegate.m */,
+				2E725F6316652CAF00942382 /* Supporting Files */,
+			);
+			path = SplitViewTest;
+			sourceTree = "<group>";
+		};
+		2E725F6316652CAF00942382 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E725F6416652CAF00942382 /* SplitViewTest-Info.plist */,
+				2E725F6516652CAF00942382 /* InfoPlist.strings */,
+				2E725F6816652CB000942382 /* main.m */,
+				2E725F6A16652CB000942382 /* SplitViewTest-Prefix.pch */,
+				2E725F6E16652CB000942382 /* Default.png */,
+				2E725F7016652CB000942382 /* Default@2x.png */,
+				2E725F7216652CB000942382 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E725F7F16652F1700942382 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2E725F7416652CB000942382 /* HomescreenViewController.h */,
+				2E725F7516652CB000942382 /* HomescreenViewController.m */,
+				2E725F7716652CB000942382 /* HomescreenViewController.xib */,
+				2E725FB516654D3800942382 /* HelpViewController.h */,
+				2E725FB616654D3800942382 /* HelpViewController.m */,
+				2E725FB716654D3800942382 /* HelpViewController.xib */,
+				2E725F9E1665338000942382 /* Setting */,
+				2E725F9D1665337500942382 /* Tip */,
+				2E725F9C1665336E00942382 /* Manual */,
+				2E725F9B1665336400942382 /* Warning */,
+				2E725F9A1665335900942382 /* Service */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2E725F9A1665335900942382 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2E725F8016652F3E00942382 /* ServiceCategoryViewController.h */,
+				2E725F8116652F3E00942382 /* ServiceCategoryViewController.m */,
+				2E725F8216652F3E00942382 /* ServiceCategoryViewController.xib */,
+				2E725FA81665360F00942382 /* StepDetailViewController.h */,
+				2E725FAD1665398E00942382 /* StepDetailViewController.m */,
+				2E725FAA1665360F00942382 /* StepDetailViewController.xib */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		2E725F9B1665336400942382 /* Warning */ = {
+			isa = PBXGroup;
+			children = (
+				2E725FCC1665521800942382 /* WarninglightController */,
+				2E725F86166531E300942382 /* WarningCategoryViewController.h */,
+				2E725F87166531E300942382 /* WarningCategoryViewController.m */,
+				2E725F88166531E300942382 /* WarningCategoryViewController.xib */,
+			);
+			name = Warning;
+			sourceTree = "<group>";
+		};
+		2E725F9C1665336E00942382 /* Manual */ = {
+			isa = PBXGroup;
+			children = (
+				2E725F8B1665323F00942382 /* ManualCategoryViewController.h */,
+				2E725F8C1665323F00942382 /* ManualCategoryViewController.m */,
+				2E725F8D1665323F00942382 /* ManualCategoryViewController.xib */,
+			);
+			name = Manual;
+			sourceTree = "<group>";
+		};
+		2E725F9D1665337500942382 /* Tip */ = {
+			isa = PBXGroup;
+			children = (
+				2E725F901665329200942382 /* TipCategoryViewController.h */,
+				2E725F911665329200942382 /* TipCategoryViewController.m */,
+				2E725F921665329200942382 /* TipCategoryViewController.xib */,
+			);
+			name = Tip;
+			sourceTree = "<group>";
+		};
+		2E725F9E1665338000942382 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				2E725F95166532C600942382 /* SettingCategoryViewController.h */,
+				2E725F96166532C600942382 /* SettingCategoryViewController.m */,
+				2E725F97166532C600942382 /* SettingCategoryViewController.xib */,
+				2E725FE216655E6100942382 /* ProfilController.h */,
+				2E725FE316655E6100942382 /* ProfilController.m */,
+				2E725FE416655E6100942382 /* ProfilController.xib */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		2E725F9F166533F900942382 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E725FA11665347E00942382 /* StepByStepGuide.h */,
+				2E725FA21665347E00942382 /* StepByStepGuide.m */,
+				2E725FA4166534E000942382 /* Step.h */,
+				2E725FA5166534E000942382 /* Step.m */,
+				2E725FCF166552DD00942382 /* WarningLight.h */,
+				2E725FD0166552DD00942382 /* WarningLight.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2E725FA01665340300942382 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2E725FAF166539DB00942382 /* StepByStepGuideStockService.h */,
+				2E725FB0166539DB00942382 /* StepByStepGuideStockService.m */,
+				2E725FC91665520D00942382 /* WarningLightStockService.h */,
+				2E725FCA1665520D00942382 /* WarningLightStockService.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		2E725FBA16654EB800942382 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				2E725FE01665553100942382 /* warnleuchte.png */,
+				2E725FDE1665551D00942382 /* parkbremse.png */,
+				2E725FDC1665551500942382 /* feststellbremsenleuchte.png */,
+				2E725FDA1665550A00942382 /* bremsanlage.png */,
+				2E725FBB16654EC600942382 /* reservereifen.jpg */,
+				2E725FBD16654F4100942382 /* reifenwechsel.jpg */,
+			);
+			name = Ressources;
+			sourceTree = "<group>";
+		};
+		2E725FCC1665521800942382 /* WarninglightController */ = {
+			isa = PBXGroup;
+			children = (
+				2E725FC1166551FA00942382 /* WarningLightCollectionViewCell.h */,
+				2E725FC2166551FA00942382 /* WarningLightCollectionViewCell.m */,
+				2E725FC3166551FA00942382 /* WarningLightContainerViewController.h */,
+				2E725FC4166551FA00942382 /* WarningLightContainerViewController.m */,
+				2E725FC5166551FA00942382 /* WarningLightContainerViewController.xib */,
+				2E725FD51665530B00942382 /* WarningLightViewController.h */,
+				2E725FD61665530B00942382 /* WarningLightViewController.m */,
+				2E725FD71665530B00942382 /* WarningLightViewController.xib */,
+			);
+			name = WarninglightController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E725F5716652CAF00942382 /* SplitViewTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E725F7C16652CB000942382 /* Build configuration list for PBXNativeTarget "SplitViewTest" */;
+			buildPhases = (
+				2E725F5416652CAF00942382 /* Sources */,
+				2E725F5516652CAF00942382 /* Frameworks */,
+				2E725F5616652CAF00942382 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SplitViewTest;
+			productName = SplitViewTest;
+			productReference = 2E725F5816652CAF00942382 /* SplitViewTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E725F4F16652CAF00942382 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Universität Hamburg";
+			};
+			buildConfigurationList = 2E725F5216652CAF00942382 /* Build configuration list for PBXProject "SplitViewTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2E725F4D16652CAF00942382;
+			productRefGroup = 2E725F5916652CAF00942382 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E725F5716652CAF00942382 /* SplitViewTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E725F5616652CAF00942382 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E725F6716652CAF00942382 /* InfoPlist.strings in Resources */,
+				2E725F6F16652CB000942382 /* Default.png in Resources */,
+				2E725F7116652CB000942382 /* Default@2x.png in Resources */,
+				2E725F7316652CB000942382 /* Default-568h@2x.png in Resources */,
+				2E725F7916652CB000942382 /* HomescreenViewController.xib in Resources */,
+				2E725F8416652F3E00942382 /* ServiceCategoryViewController.xib in Resources */,
+				2E725F8A166531E300942382 /* WarningCategoryViewController.xib in Resources */,
+				2E725F8F1665324000942382 /* ManualCategoryViewController.xib in Resources */,
+				2E725F941665329200942382 /* TipCategoryViewController.xib in Resources */,
+				2E725F99166532C600942382 /* SettingCategoryViewController.xib in Resources */,
+				2E725FAC1665360F00942382 /* StepDetailViewController.xib in Resources */,
+				2E725FB916654D3800942382 /* HelpViewController.xib in Resources */,
+				2E725FBC16654EC600942382 /* reservereifen.jpg in Resources */,
+				2E725FBE16654F4100942382 /* reifenwechsel.jpg in Resources */,
+				2E725FC8166551FA00942382 /* WarningLightContainerViewController.xib in Resources */,
+				2E725FD91665530B00942382 /* WarningLightViewController.xib in Resources */,
+				2E725FDB1665550A00942382 /* bremsanlage.png in Resources */,
+				2E725FDD1665551500942382 /* feststellbremsenleuchte.png in Resources */,
+				2E725FDF1665551D00942382 /* parkbremse.png in Resources */,
+				2E725FE11665553100942382 /* warnleuchte.png in Resources */,
+				2E725FE616655E6100942382 /* ProfilController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E725F5416652CAF00942382 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E725F6916652CB000942382 /* main.m in Sources */,
+				2E725F6D16652CB000942382 /* AppDelegate.m in Sources */,
+				2E725F7616652CB000942382 /* HomescreenViewController.m in Sources */,
+				2E725F8316652F3E00942382 /* ServiceCategoryViewController.m in Sources */,
+				2E725F89166531E300942382 /* WarningCategoryViewController.m in Sources */,
+				2E725F8E1665324000942382 /* ManualCategoryViewController.m in Sources */,
+				2E725F931665329200942382 /* TipCategoryViewController.m in Sources */,
+				2E725F98166532C600942382 /* SettingCategoryViewController.m in Sources */,
+				2E725FA31665347E00942382 /* StepByStepGuide.m in Sources */,
+				2E725FA6166534E000942382 /* Step.m in Sources */,
+				2E725FAE1665398E00942382 /* StepDetailViewController.m in Sources */,
+				2E725FB1166539DB00942382 /* StepByStepGuideStockService.m in Sources */,
+				2E725FB816654D3800942382 /* HelpViewController.m in Sources */,
+				2E725FC6166551FA00942382 /* WarningLightCollectionViewCell.m in Sources */,
+				2E725FC7166551FA00942382 /* WarningLightContainerViewController.m in Sources */,
+				2E725FCB1665520D00942382 /* WarningLightStockService.m in Sources */,
+				2E725FD1166552DD00942382 /* WarningLight.m in Sources */,
+				2E725FD81665530B00942382 /* WarningLightViewController.m in Sources */,
+				2E725FE516655E6100942382 /* ProfilController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E725F6516652CAF00942382 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E725F6616652CAF00942382 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2E725F7716652CB000942382 /* HomescreenViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E725F7816652CB000942382 /* en */,
+			);
+			name = HomescreenViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E725F7A16652CB000942382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		2E725F7B16652CB000942382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E725F7D16652CB000942382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SplitViewTest/SplitViewTest-Prefix.pch";
+				INFOPLIST_FILE = "SplitViewTest/SplitViewTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2E725F7E16652CB000942382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SplitViewTest/SplitViewTest-Prefix.pch";
+				INFOPLIST_FILE = "SplitViewTest/SplitViewTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E725F5216652CAF00942382 /* Build configuration list for PBXProject "SplitViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E725F7A16652CB000942382 /* Debug */,
+				2E725F7B16652CB000942382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E725F7C16652CB000942382 /* Build configuration list for PBXNativeTarget "SplitViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E725F7D16652CB000942382 /* Debug */,
+				2E725F7E16652CB000942382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E725F4F16652CAF00942382 /* Project object */;
+}
